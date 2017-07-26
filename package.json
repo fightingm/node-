@@ -1,0 +1,12 @@
+{
+  "name": "pachong",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "iconv-lite": "^0.4.18",
+    "pug": "^2.0.0-rc.2"
+  }
+}

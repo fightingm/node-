@@ -1,0 +1,17 @@
+extends ./layout.pug
+block append style
+	link(type="text/css" rel="stylesheet" href="/css/index.css")
+block content
+	div.ui-main-bg(style=`background-image: url(${info.img})`)
+	div.ui-word
+		p!=info.word.ch
+		p!=info.word.en
+	div.ui-weater
+		h3
+			span.weater-text=info.weater.text
+			span!=info.weater.temp
+			span °
+		h3!=info.weater.city
+	div.ui-time
+block append script
+	script(src="/js/index.js")
